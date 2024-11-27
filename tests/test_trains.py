@@ -9,9 +9,7 @@ import os
 import sys
 import unittest
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-from train_manager import add_train, connect_db, find_train, list_trains
+from src.train_manager import add_train, connect_db, find_train, list_trains
 
 
 class TestDatabaseOperations(unittest.TestCase):
